@@ -5,3 +5,4 @@ pycryptodome==3.19.0
 nest-asyncio==1.5.8
 beautifulsoup4==4.12.2
 lxml==4.9.3
+aiohttp==3.9.1
