@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: vipstudy-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python vipstudy_bot_v15.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8798834071:AAERb1XxYZ4ic1xGKE1x_t6-S6PbLLOtiq8
